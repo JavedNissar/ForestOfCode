@@ -1,0 +1,18 @@
+{
+  "main":{
+    "input_type":"int",
+    "input_name":"n",
+    "output_type":"int",
+    "evaluation":{
+      "reduce":[
+        {
+          "operation": "range",
+          "input": "n"
+        },
+        {
+          "operation":"multiply"
+        }
+      ]
+    }
+  }
+}
