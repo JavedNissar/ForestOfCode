@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Source" t="Include">
+          <e p="BuiltInFunctionFactory.cs" t="Include" />
+          <e p="BuiltInOperations.cs" t="Include" />
+          <e p="FunctionCall.cs" t="Include" />
+          <e p="FunctionDefinition.cs" t="Include" />
+          <e p="Type.cs" t="Include" />
+          <e p="TypeUtilities.cs" t="Include" />
+        </e>
+        <e p="Tests" t="Include">
+          <e p="MultiplyAndDivideTest.cs" t="Include" />
+        </e>
+      </e>
       <e p="ForestOfCode.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_ForestOfCode.-1856449330.00" t="ExcludeRecursive" />

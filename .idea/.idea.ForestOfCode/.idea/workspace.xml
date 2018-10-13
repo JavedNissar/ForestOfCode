@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb02dbc4-bcc7-4a70-b7b7-2bc0ecfddc2d" name="Default Changelist" comment="" />
+    <list default="true" id="cb02dbc4-bcc7-4a70-b7b7-2bc0ecfddc2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/FunctionCall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/FunctionDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Type.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/TypeUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/TypeUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForestOfCode/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForestOfCode/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForestOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForestOfCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SRC/Interpreter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SRC/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SRC/Types.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SRC/factorial.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,33 +31,34 @@
     <session id="-1286460140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="12" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="12" />
           <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="969" />
+          <entry key="cs" value="8744" />
           <entry key="json" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="969" />
+          <entry key="C#" value="8744" />
           <entry key="JSON" value="210" />
         </counts>
       </usages-collector>
@@ -47,49 +67,127 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SRC/Interpreter.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/FunctionDefinition.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="224">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
-                <marker date="1538540148015" expanded="true" signature="57:149" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SRC/Node.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <marker date="1538539476483" expanded="true" signature="44:68" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="91:1299" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="462:1058" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="516:727" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="581:713" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="1099:1293" ph="{...}" />
-                <marker date="1538539476483" expanded="true" signature="1201:1270" ph="{...}" />
+                <marker date="1539400780025" expanded="true" signature="6:47" ph="..." />
+                <marker date="1539400780025" expanded="true" signature="65:1470" ph="{...}" />
+                <marker date="1539400780025" expanded="true" signature="103:1468" ph="{...}" />
+                <marker date="1539400780025" expanded="true" signature="287:597" ph="/* Declares a function definition with the inputTypes and outputTypes for validating calls to the function. ... */" />
+                <marker date="1539400780025" expanded="true" signature="701:848" ph="{...}" />
+                <marker date="1539400780025" expanded="true" signature="858:1058" ph="/* Declare a function definition like the last one; however, this one uses a builtIn rather than rootCall. ... */" />
+                <marker date="1539400780025" expanded="true" signature="1152:1306" ph="{...}" />
+                <marker date="1539400780025" expanded="true" signature="1380:1462" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/SRC/factorial.json">
+        <entry file="file://$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="608">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding>
+                <marker date="1539407439357" expanded="true" signature="6:103" ph="..." />
+                <marker date="1539407439357" expanded="true" signature="120:2369" ph="{...}" />
+                <marker date="1539407439357" expanded="true" signature="161:2367" ph="{...}" />
+                <marker date="1539407439357" expanded="true" signature="254:1975" ph="{...}" />
+                <marker date="1539407439357" expanded="true" signature="277:354" ph="/* Use the Assert class to test conditions. ... */" />
+                <marker date="1539407439357" expanded="true" signature="1985:2104" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+                <marker date="1539407439357" expanded="true" signature="2217:2361" ph="{...}" />
+                <marker date="1539407439357" expanded="true" signature="2240:2320" ph="/* Use the Assert class to test conditions. ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SRC/Types.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/TypeUtilities.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <marker date="1539406910933" expanded="true" signature="16:216" ph="{...}" />
+                <marker date="1539406910933" expanded="true" signature="49:214" ph="{...}" />
+                <marker date="1539406910933" expanded="true" signature="104:208" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="77" column="92" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
+              <folding>
+                <marker date="1539403203509" expanded="true" signature="6:47" ph="..." />
+                <marker date="1539403203509" expanded="true" signature="65:3382" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="107:3380" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="177:444" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="511:692" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="769:907" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="974:1061" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="1125:1217" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="1281:1373" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="1435:1525" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="1586:1919" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="1981:2490" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="2552:2642" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="2700:3223" ph="{...}" />
+                <marker date="1539403203509" expanded="true" signature="3284:3374" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/FunctionCall.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+              <folding>
+                <marker date="1539407033960" expanded="true" signature="51:1549" ph="{...}" />
+                <marker date="1539407033960" expanded="true" signature="83:1547" ph="{...}" />
+                <marker date="1539407033960" expanded="true" signature="250:665" ph="/* Construct a function call. This class is meant to define the call of a function defined by ... */" />
+                <marker date="1539407033960" expanded="true" signature="785:944" ph="{...}" />
+                <marker date="1539407033960" expanded="true" signature="962:1049" ph="/* Construct a function call that doesn't have input values yet ... */" />
+                <marker date="1539407033960" expanded="true" signature="1143:1257" ph="{...}" />
+                <marker date="1539407033960" expanded="true" signature="1319:1384" ph="{...}" />
+                <marker date="1539407033960" expanded="true" signature="1462:1541" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Type.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              <folding>
+                <marker date="1539403134026" expanded="true" signature="16:484" ph="{...}" />
+                <marker date="1539403134026" expanded="true" signature="45:110" ph="{...}" />
+                <marker date="1539403134026" expanded="true" signature="143:188" ph="{...}" />
+                <marker date="1539403134026" expanded="true" signature="211:482" ph="{...}" />
+                <marker date="1539403134026" expanded="true" signature="352:476" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+              <folding>
+                <marker date="1539403128386" expanded="true" signature="16:132" ph="{...}" />
+                <marker date="1539403128386" expanded="true" signature="52:130" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +198,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SRC/Interpreter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SRC/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SRC/Types.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/TypeUtilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/FunctionDefinition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/FunctionCall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Type.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,6 +213,17 @@
         <option value="$PROJECT_DIR$/Assets/SRC/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/SRC/factorial.json" />
         <option value="$PROJECT_DIR$/Assets/SRC/Interpreter.cs" />
+        <option value="$PROJECT_DIR$/Assets/SRC/FunctionDefinition.cs" />
+        <option value="$PROJECT_DIR$/Assets/SRC/FunctionCall.cs" />
+        <option value="$PROJECT_DIR$/Assets/SRC/Type.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/FunctionCallInstance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/FunctionDefinition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Type.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/TypeUtilities.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/FunctionCall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +243,21 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scenes" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Source" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Tests" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -162,6 +290,22 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cb02dbc4-bcc7-4a70-b7b7-2bc0ecfddc2d" name="Default Changelist" comment="" />
@@ -170,12 +314,13 @@
       <option name="presentableId" value="Default" />
       <updated>1538537830548</updated>
       <workItem from="1538537836645" duration="2447000" />
-      <workItem from="1538687969317" duration="86000" />
+      <workItem from="1538687969317" duration="348000" />
+      <workItem from="1539292472032" duration="10108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2533000" />
+    <option name="totallyTimeSpent" value="12903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,8 +333,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,7 +344,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -231,9 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1538540148015" expanded="true" signature="57:149" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -241,29 +384,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <marker date="1538539476483" expanded="true" signature="44:68" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="91:1299" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="462:1058" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="516:727" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="581:713" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="1099:1293" ph="{...}" />
-            <marker date="1538539476483" expanded="true" signature="1201:1270" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SRC/Types.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SRC/factorial.json">
+    <entry file="file://$PROJECT_DIR$/Assets/Source/FunctionCallInstance.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/factorial.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/BuiltInOperations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding>
+            <marker date="1539403128386" expanded="true" signature="16:132" ph="{...}" />
+            <marker date="1539403128386" expanded="true" signature="52:130" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Type.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <marker date="1539403134026" expanded="true" signature="16:484" ph="{...}" />
+            <marker date="1539403134026" expanded="true" signature="45:110" ph="{...}" />
+            <marker date="1539403134026" expanded="true" signature="143:188" ph="{...}" />
+            <marker date="1539403134026" expanded="true" signature="211:482" ph="{...}" />
+            <marker date="1539403134026" expanded="true" signature="352:476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/BuiltInFunctionFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="77" column="92" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
+          <folding>
+            <marker date="1539403203509" expanded="true" signature="6:47" ph="..." />
+            <marker date="1539403203509" expanded="true" signature="65:3382" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="107:3380" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="177:444" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="511:692" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="769:907" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="974:1061" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="1125:1217" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="1281:1373" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="1435:1525" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="1586:1919" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="1981:2490" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="2552:2642" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="2700:3223" ph="{...}" />
+            <marker date="1539403203509" expanded="true" signature="3284:3374" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/TypeUtilities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1539406910933" expanded="true" signature="16:216" ph="{...}" />
+            <marker date="1539406910933" expanded="true" signature="49:214" ph="{...}" />
+            <marker date="1539406910933" expanded="true" signature="104:208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/FunctionDefinition.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <marker date="1539400780025" expanded="true" signature="6:47" ph="..." />
+            <marker date="1539400780025" expanded="true" signature="65:1470" ph="{...}" />
+            <marker date="1539400780025" expanded="true" signature="103:1468" ph="{...}" />
+            <marker date="1539400780025" expanded="true" signature="287:597" ph="/* Declares a function definition with the inputTypes and outputTypes for validating calls to the function. ... */" />
+            <marker date="1539400780025" expanded="true" signature="701:848" ph="{...}" />
+            <marker date="1539400780025" expanded="true" signature="858:1058" ph="/* Declare a function definition like the last one; however, this one uses a builtIn rather than rootCall. ... */" />
+            <marker date="1539400780025" expanded="true" signature="1152:1306" ph="{...}" />
+            <marker date="1539400780025" expanded="true" signature="1380:1462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/FunctionCall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <marker date="1539407033960" expanded="true" signature="51:1549" ph="{...}" />
+            <marker date="1539407033960" expanded="true" signature="83:1547" ph="{...}" />
+            <marker date="1539407033960" expanded="true" signature="250:665" ph="/* Construct a function call. This class is meant to define the call of a function defined by ... */" />
+            <marker date="1539407033960" expanded="true" signature="785:944" ph="{...}" />
+            <marker date="1539407033960" expanded="true" signature="962:1049" ph="/* Construct a function call that doesn't have input values yet ... */" />
+            <marker date="1539407033960" expanded="true" signature="1143:1257" ph="{...}" />
+            <marker date="1539407033960" expanded="true" signature="1319:1384" ph="{...}" />
+            <marker date="1539407033960" expanded="true" signature="1462:1541" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/MultiplyAndDivideTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <marker date="1539407439357" expanded="true" signature="6:103" ph="..." />
+            <marker date="1539407439357" expanded="true" signature="120:2369" ph="{...}" />
+            <marker date="1539407439357" expanded="true" signature="161:2367" ph="{...}" />
+            <marker date="1539407439357" expanded="true" signature="254:1975" ph="{...}" />
+            <marker date="1539407439357" expanded="true" signature="277:354" ph="/* Use the Assert class to test conditions. ... */" />
+            <marker date="1539407439357" expanded="true" signature="1985:2104" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+            <marker date="1539407439357" expanded="true" signature="2217:2361" ph="{...}" />
+            <marker date="1539407439357" expanded="true" signature="2240:2320" ph="/* Use the Assert class to test conditions. ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
